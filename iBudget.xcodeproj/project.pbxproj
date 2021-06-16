@@ -16,6 +16,9 @@
 		90CB7C952679A2F900E10C89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90CB7C932679A2F900E10C89 /* LaunchScreen.storyboard */; };
 		90CB7CA02679A2F900E10C89 /* iBudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7C9F2679A2F900E10C89 /* iBudgetTests.swift */; };
 		90CB7CAB2679A2F900E10C89 /* iBudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CAA2679A2F900E10C89 /* iBudgetUITests.swift */; };
+		90CB7CBB2679B1B600E10C89 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CBA2679B1B600E10C89 /* MainViewController.swift */; };
+		90CB7CC02679BAC000E10C89 /* MainUIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CBF2679BAC000E10C89 /* MainUIProgressView.swift */; };
+		90CB7CC22679C12E00E10C89 /* plainProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CC12679C12E00E10C89 /* plainProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		90CB7CA62679A2F900E10C89 /* iBudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CB7CAA2679A2F900E10C89 /* iBudgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBudgetUITests.swift; sourceTree = "<group>"; };
 		90CB7CAC2679A2F900E10C89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90CB7CBA2679B1B600E10C89 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		90CB7CBF2679BAC000E10C89 /* MainUIProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIProgressView.swift; sourceTree = "<group>"; };
+		90CB7CC12679C12E00E10C89 /* plainProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plainProgressBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 			children = (
 				90CB7C852679A2F800E10C89 /* AppDelegate.swift */,
 				90CB7C872679A2F800E10C89 /* SceneDelegate.swift */,
+				90CB7CBC2679BA1000E10C89 /* Model */,
+				90CB7CBD2679BA1400E10C89 /* View */,
+				90CB7CBE2679BA1F00E10C89 /* Controller */,
 				90CB7C892679A2F800E10C89 /* ViewController.swift */,
 				90CB7C8B2679A2F800E10C89 /* Main.storyboard */,
 				90CB7C912679A2F900E10C89 /* Assets.xcassets */,
@@ -129,6 +138,30 @@
 				90CB7CAC2679A2F900E10C89 /* Info.plist */,
 			);
 			path = iBudgetUITests;
+			sourceTree = "<group>";
+		};
+		90CB7CBC2679BA1000E10C89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90CB7CBD2679BA1400E10C89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90CB7CC12679C12E00E10C89 /* plainProgressBar.swift */,
+				90CB7CBF2679BAC000E10C89 /* MainUIProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90CB7CBE2679BA1F00E10C89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90CB7CBA2679B1B600E10C89 /* MainViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +298,9 @@
 				90CB7C8A2679A2F800E10C89 /* ViewController.swift in Sources */,
 				90CB7C862679A2F800E10C89 /* AppDelegate.swift in Sources */,
 				90CB7C882679A2F800E10C89 /* SceneDelegate.swift in Sources */,
+				90CB7CC02679BAC000E10C89 /* MainUIProgressView.swift in Sources */,
+				90CB7CBB2679B1B600E10C89 /* MainViewController.swift in Sources */,
+				90CB7CC22679C12E00E10C89 /* plainProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
