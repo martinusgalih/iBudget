@@ -158,6 +158,7 @@
                     <navigationItem key="navigationItem" id="khw-db-My0"/>
                     <connections>
                         <outlet property="bgView" destination="6TT-VM-ua6" id="gHO-fO-jaK"/>
+                        <outlet property="progressBar" destination="UPD-1H-FaZ" id="zyJ-7O-T7K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOk-EJ-ujj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
