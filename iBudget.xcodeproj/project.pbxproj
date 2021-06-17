@@ -19,6 +19,7 @@
 		90CB7CBB2679B1B600E10C89 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CBA2679B1B600E10C89 /* MainViewController.swift */; };
 		90CB7CC02679BAC000E10C89 /* MainUIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CBF2679BAC000E10C89 /* MainUIProgressView.swift */; };
 		90CB7CC22679C12E00E10C89 /* plainProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CC12679C12E00E10C89 /* plainProgressBar.swift */; };
+		DDFD1352267A7EE9003DF38C /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD1351267A7EE9003DF38C /* LandingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		90CB7CBA2679B1B600E10C89 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		90CB7CBF2679BAC000E10C89 /* MainUIProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIProgressView.swift; sourceTree = "<group>"; };
 		90CB7CC12679C12E00E10C89 /* plainProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plainProgressBar.swift; sourceTree = "<group>"; };
+		DDFD1351267A7EE9003DF38C /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				90CB7C932679A2F900E10C89 /* LaunchScreen.storyboard */,
 				90CB7C962679A2F900E10C89 /* Info.plist */,
 				90CB7C8E2679A2F800E10C89 /* iBudget.xcdatamodeld */,
+				DDFD1351267A7EE9003DF38C /* LandingViewController.swift */,
 			);
 			path = iBudget;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			files = (
 				90CB7C902679A2F800E10C89 /* iBudget.xcdatamodeld in Sources */,
 				90CB7C8A2679A2F800E10C89 /* ViewController.swift in Sources */,
+				DDFD1352267A7EE9003DF38C /* LandingViewController.swift in Sources */,
 				90CB7C862679A2F800E10C89 /* AppDelegate.swift in Sources */,
 				90CB7C882679A2F800E10C89 /* SceneDelegate.swift in Sources */,
 				90CB7CC02679BAC000E10C89 /* MainUIProgressView.swift in Sources */,
