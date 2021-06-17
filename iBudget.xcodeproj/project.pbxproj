@@ -19,6 +19,9 @@
 		90CB7CBB2679B1B600E10C89 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CBA2679B1B600E10C89 /* MainViewController.swift */; };
 		90CB7CC02679BAC000E10C89 /* MainUIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CBF2679BAC000E10C89 /* MainUIProgressView.swift */; };
 		90CB7CC22679C12E00E10C89 /* plainProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CC12679C12E00E10C89 /* plainProgressBar.swift */; };
+		9B6274A3267B173000C7001D /* BulanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6274A2267B173000C7001D /* BulanCollectionViewCell.swift */; };
+		9B6274A7267B19E100C7001D /* BulanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6274A6267B19E100C7001D /* BulanViewController.swift */; };
+		9B6274AA267B1B9400C7001D /* Bulan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6274A9267B1B9400C7001D /* Bulan.swift */; };
 		DDFD1352267A7EE9003DF38C /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD1351267A7EE9003DF38C /* LandingViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +61,9 @@
 		90CB7CBA2679B1B600E10C89 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		90CB7CBF2679BAC000E10C89 /* MainUIProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIProgressView.swift; sourceTree = "<group>"; };
 		90CB7CC12679C12E00E10C89 /* plainProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plainProgressBar.swift; sourceTree = "<group>"; };
+		9B6274A2267B173000C7001D /* BulanCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulanCollectionViewCell.swift; sourceTree = "<group>"; };
+		9B6274A6267B19E100C7001D /* BulanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulanViewController.swift; sourceTree = "<group>"; };
+		9B6274A9267B1B9400C7001D /* Bulan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulan.swift; sourceTree = "<group>"; };
 		DDFD1351267A7EE9003DF38C /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +95,7 @@
 		90CB7C792679A2F800E10C89 = {
 			isa = PBXGroup;
 			children = (
+				9B6274A8267B1A0B00C7001D /* Bulan */,
 				90CB7C842679A2F800E10C89 /* iBudget */,
 				90CB7C9E2679A2F900E10C89 /* iBudgetTests */,
 				90CB7CA92679A2F900E10C89 /* iBudgetUITests */,
@@ -165,6 +172,16 @@
 				90CB7CBA2679B1B600E10C89 /* MainViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		9B6274A8267B1A0B00C7001D /* Bulan */ = {
+			isa = PBXGroup;
+			children = (
+				9B6274A6267B19E100C7001D /* BulanViewController.swift */,
+				9B6274A9267B1B9400C7001D /* Bulan.swift */,
+				9B6274A2267B173000C7001D /* BulanCollectionViewCell.swift */,
+			);
+			path = Bulan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,8 +319,11 @@
 				DDFD1352267A7EE9003DF38C /* LandingViewController.swift in Sources */,
 				90CB7C862679A2F800E10C89 /* AppDelegate.swift in Sources */,
 				90CB7C882679A2F800E10C89 /* SceneDelegate.swift in Sources */,
+				9B6274A7267B19E100C7001D /* BulanViewController.swift in Sources */,
 				90CB7CC02679BAC000E10C89 /* MainUIProgressView.swift in Sources */,
+				9B6274A3267B173000C7001D /* BulanCollectionViewCell.swift in Sources */,
 				90CB7CBB2679B1B600E10C89 /* MainViewController.swift in Sources */,
+				9B6274AA267B1B9400C7001D /* Bulan.swift in Sources */,
 				90CB7CC22679C12E00E10C89 /* plainProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
