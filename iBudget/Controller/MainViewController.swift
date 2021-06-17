@@ -19,12 +19,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        
-        mainImageView.animationImages = 
     
-         view.addSubview(mainImageView)
-         mainImageView.startAnimating()
-        mainImageView.animationDuration = 3
-        mainImageView.animationRepeatCount = 1
         
 // shadow for bgView
         bgView.layer.cornerRadius = 20
