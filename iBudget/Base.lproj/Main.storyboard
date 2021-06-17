@@ -154,6 +154,7 @@
                         <viewLayoutGuide key="safeArea" id="eVX-j0-GXb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="khw-db-My0"/>
                     <connections>
                         <outlet property="bgView" destination="6TT-VM-ua6" id="gHO-fO-jaK"/>
                     </connections>
