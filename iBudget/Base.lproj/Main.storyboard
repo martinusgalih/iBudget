@@ -128,34 +128,33 @@
                                 <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Active Debts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5IQ-mi-7Dh">
-                                <rect key="frame" x="136" y="350" width="120" height="24"/>
+                                <rect key="frame" x="135" y="375" width="120" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hv8-Xj-U0z">
+                                <rect key="frame" x="38" y="440" width="157" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gej-91-s66">
+                                <rect key="frame" x="194" y="440" width="157" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPU-v3-75C">
                                 <rect key="frame" x="43" y="732" width="304" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.9228692651" green="0.42930781839999999" blue="0.34506386519999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
-                                <state key="normal" title="Start">
+                                <state key="normal" title="Add">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bcy-9o-0BR">
-                                <rect key="frame" x="75" y="397" width="240" height="265"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bcy-9o-0BR">
+                                <rect key="frame" x="107" y="428" width="176" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDP-cD-hjb">
-                                <rect key="frame" x="185" y="690" width="20" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="plus.circle.fill" catalog="system"/>
-                                <connections>
-                                    <action selector="tambah:" destination="GTN-YO-tMz" eventType="touchUpInside" id="22V-fd-KKO"/>
-                                    <action selector="tambah:" destination="UPD-1H-FaZ" eventType="touchUpInside" id="wQ9-fG-FhY"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eVX-j0-GXb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -167,10 +166,11 @@
                         <outlet property="bgView" destination="6TT-VM-ua6" id="gHO-fO-jaK"/>
                         <outlet property="mainImageView" destination="Bcy-9o-0BR" id="Wxt-KY-jyN"/>
                         <outlet property="progressBar" destination="UPD-1H-FaZ" id="zyJ-7O-T7K"/>
+                        <outlet property="sideGif1" destination="Hv8-Xj-U0z" id="8MN-rs-CAH"/>
+                        <outlet property="sideGif2" destination="Gej-91-s66" id="PEn-b8-Ubh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bOk-EJ-ujj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="GTN-YO-tMz" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="678.46153846153845" y="83.175355450236964"/>
         </scene>
@@ -341,7 +341,6 @@
     <color key="tintColor" red="0.92549019610000005" green="0.42745098040000001" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
-        <image name="plus.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

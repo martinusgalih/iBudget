@@ -17,9 +17,7 @@ class plainProgressBar: UIView {
     
    
     
-    @IBAction func tambah(_ sender: Any) {
-        progress += 0.01
-    }
+
     override func draw(_ rect: CGRect) {
         backgroundColor?.setFill()
         UIBezierPath(roundedRect: rect, cornerRadius: rect.height * 0.25).fill()
