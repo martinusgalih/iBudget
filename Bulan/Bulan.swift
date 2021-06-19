@@ -12,14 +12,15 @@ struct Date {
     let persen: String
 }
 let dates:[Date] = [
-    Date(Bulan: "Januari", persen: "20"),
-    Date(Bulan: "Februari", persen: "20"),
-    Date(Bulan: "Maret", persen: "20"),
-    Date(Bulan: "April", persen: "20"),
-    Date(Bulan: "Mei", persen: "20"),
-    Date(Bulan: "Juni", persen: "20"),
-    Date(Bulan: "Agustus", persen: "20"),
-    Date(Bulan: "September", persen: "20"),
-    Date(Bulan: "Oktober", persen: "20"),
-    Date(Bulan: "November", persen: "20"),
-    Date(Bulan: "Desember", persen: "20") ]
+    Date(Bulan: "Jan", persen: "20%"),
+    Date(Bulan: "Feb", persen: "20%"),
+    Date(Bulan: "Mar", persen: "20%"),
+    Date(Bulan: "Apr", persen: "20%"),
+    Date(Bulan: "Mei", persen: "20%"),
+    Date(Bulan: "Jun", persen: "20%"),
+    Date(Bulan: "Jul", persen: "20%"),
+    Date(Bulan: "Agu", persen: "20%"),
+    Date(Bulan: "Sept", persen: "20%"),
+    Date(Bulan: "Okt", persen: "20%"),
+    Date(Bulan: "Nov", persen: "20%"),
+    Date(Bulan: "Des", persen: "20%") ]
