@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90BFE08D267CCD8C00CBA798 /* gifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BFE08C267CCD8C00CBA798 /* gifLoader.swift */; };
+		90BFE091267CCF2700CBA798 /* gif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90BFE090267CCF2700CBA798 /* gif1.gif */; };
+		90BFE094267CD11B00CBA798 /* gif3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90BFE092267CD11B00CBA798 /* gif3.gif */; };
+		90BFE095267CD11B00CBA798 /* gif2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90BFE093267CD11B00CBA798 /* gif2.gif */; };
 		90CB7C862679A2F800E10C89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7C852679A2F800E10C89 /* AppDelegate.swift */; };
 		90CB7C882679A2F800E10C89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7C872679A2F800E10C89 /* SceneDelegate.swift */; };
 		90CB7C8A2679A2F800E10C89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7C892679A2F800E10C89 /* ViewController.swift */; };
@@ -19,6 +23,10 @@
 		90CB7CBB2679B1B600E10C89 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CBA2679B1B600E10C89 /* MainViewController.swift */; };
 		90CB7CC02679BAC000E10C89 /* MainUIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CBF2679BAC000E10C89 /* MainUIProgressView.swift */; };
 		90CB7CC22679C12E00E10C89 /* plainProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CB7CC12679C12E00E10C89 /* plainProgressBar.swift */; };
+		9B6274A3267B173000C7001D /* BulanCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6274A2267B173000C7001D /* BulanCollectionViewCell.swift */; };
+		9B6274A7267B19E100C7001D /* BulanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6274A6267B19E100C7001D /* BulanViewController.swift */; };
+		9B6274AA267B1B9400C7001D /* Bulan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6274A9267B1B9400C7001D /* Bulan.swift */; };
+		DDFD1352267A7EE9003DF38C /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD1351267A7EE9003DF38C /* LandingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90BFE08C267CCD8C00CBA798 /* gifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoader.swift; sourceTree = "<group>"; };
+		90BFE090267CCF2700CBA798 /* gif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif1.gif; sourceTree = "<group>"; };
+		90BFE092267CD11B00CBA798 /* gif3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif3.gif; sourceTree = "<group>"; };
+		90BFE093267CD11B00CBA798 /* gif2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif2.gif; sourceTree = "<group>"; };
 		90CB7C822679A2F800E10C89 /* iBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CB7C852679A2F800E10C89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90CB7C872679A2F800E10C89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +69,10 @@
 		90CB7CBA2679B1B600E10C89 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		90CB7CBF2679BAC000E10C89 /* MainUIProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIProgressView.swift; sourceTree = "<group>"; };
 		90CB7CC12679C12E00E10C89 /* plainProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plainProgressBar.swift; sourceTree = "<group>"; };
+		9B6274A2267B173000C7001D /* BulanCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulanCollectionViewCell.swift; sourceTree = "<group>"; };
+		9B6274A6267B19E100C7001D /* BulanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulanViewController.swift; sourceTree = "<group>"; };
+		9B6274A9267B1B9400C7001D /* Bulan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulan.swift; sourceTree = "<group>"; };
+		DDFD1351267A7EE9003DF38C /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +103,7 @@
 		90CB7C792679A2F800E10C89 = {
 			isa = PBXGroup;
 			children = (
+				9B6274A8267B1A0B00C7001D /* Bulan */,
 				90CB7C842679A2F800E10C89 /* iBudget */,
 				90CB7C9E2679A2F900E10C89 /* iBudgetTests */,
 				90CB7CA92679A2F900E10C89 /* iBudgetUITests */,
@@ -113,11 +130,16 @@
 				90CB7CBD2679BA1400E10C89 /* View */,
 				90CB7CBE2679BA1F00E10C89 /* Controller */,
 				90CB7C892679A2F800E10C89 /* ViewController.swift */,
+				90BFE08C267CCD8C00CBA798 /* gifLoader.swift */,
 				90CB7C8B2679A2F800E10C89 /* Main.storyboard */,
 				90CB7C912679A2F900E10C89 /* Assets.xcassets */,
 				90CB7C932679A2F900E10C89 /* LaunchScreen.storyboard */,
 				90CB7C962679A2F900E10C89 /* Info.plist */,
+				90BFE093267CD11B00CBA798 /* gif2.gif */,
+				90BFE092267CD11B00CBA798 /* gif3.gif */,
+				90BFE090267CCF2700CBA798 /* gif1.gif */,
 				90CB7C8E2679A2F800E10C89 /* iBudget.xcdatamodeld */,
+				DDFD1351267A7EE9003DF38C /* LandingViewController.swift */,
 			);
 			path = iBudget;
 			sourceTree = "<group>";
@@ -162,6 +184,16 @@
 				90CB7CBA2679B1B600E10C89 /* MainViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		9B6274A8267B1A0B00C7001D /* Bulan */ = {
+			isa = PBXGroup;
+			children = (
+				9B6274A6267B19E100C7001D /* BulanViewController.swift */,
+				9B6274A9267B1B9400C7001D /* Bulan.swift */,
+				9B6274A2267B173000C7001D /* BulanCollectionViewCell.swift */,
+			);
+			path = Bulan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +301,10 @@
 			files = (
 				90CB7C952679A2F900E10C89 /* LaunchScreen.storyboard in Resources */,
 				90CB7C922679A2F900E10C89 /* Assets.xcassets in Resources */,
+				90BFE094267CD11B00CBA798 /* gif3.gif in Resources */,
 				90CB7C8D2679A2F800E10C89 /* Main.storyboard in Resources */,
+				90BFE095267CD11B00CBA798 /* gif2.gif in Resources */,
+				90BFE091267CCF2700CBA798 /* gif1.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,10 +331,15 @@
 			files = (
 				90CB7C902679A2F800E10C89 /* iBudget.xcdatamodeld in Sources */,
 				90CB7C8A2679A2F800E10C89 /* ViewController.swift in Sources */,
+				DDFD1352267A7EE9003DF38C /* LandingViewController.swift in Sources */,
 				90CB7C862679A2F800E10C89 /* AppDelegate.swift in Sources */,
 				90CB7C882679A2F800E10C89 /* SceneDelegate.swift in Sources */,
+				9B6274A7267B19E100C7001D /* BulanViewController.swift in Sources */,
 				90CB7CC02679BAC000E10C89 /* MainUIProgressView.swift in Sources */,
+				90BFE08D267CCD8C00CBA798 /* gifLoader.swift in Sources */,
+				9B6274A3267B173000C7001D /* BulanCollectionViewCell.swift in Sources */,
 				90CB7CBB2679B1B600E10C89 /* MainViewController.swift in Sources */,
+				9B6274AA267B1B9400C7001D /* Bulan.swift in Sources */,
 				90CB7CC22679C12E00E10C89 /* plainProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,14 +9,15 @@ import UIKit
 @IBDesignable
 class plainProgressBar: UIView {
     @IBInspectable var color: UIColor? = .gray
-    var progress: CGFloat = 0.5 {
-        didSet {setNeedsDisplay()}
+    var progress: CGFloat = 0 {
+        didSet {
+            setNeedsDisplay()
+        }
     }
     
+   
+    
 
-    @IBAction func tambah(_ sender: Any) {
-        progress += 1 
-    }
     override func draw(_ rect: CGRect) {
         backgroundColor?.setFill()
         UIBezierPath(roundedRect: rect, cornerRadius: rect.height * 0.25).fill()
@@ -32,8 +33,11 @@ class plainProgressBar: UIView {
         layer.addSublayer(progressLayer)
         progressLayer.backgroundColor = color?.cgColor
         
+        
     }
    
+    
+    
  private let progressLayer = CALayer()
     override init(frame: CGRect) {
         super.init(frame: frame)
