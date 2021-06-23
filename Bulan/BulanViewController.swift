@@ -17,11 +17,14 @@ class BulanViewController: UIViewController, UICollectionViewDelegate{
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.collectionViewLayout = UICollectionViewFlowLayout()
+        collectionView.layer.cornerRadius = 10
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print(dates[indexPath.row].Bulan)
     }
+    
 }
 
 extension BulanViewController: UICollectionViewDataSource {
