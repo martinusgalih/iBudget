@@ -29,6 +29,7 @@
 		9B9781472682ED7D003CD9B2 /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9781452682ED7D003CD9B2 /* itemCell.swift */; };
 		9B9781482682ED7D003CD9B2 /* itemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B9781462682ED7D003CD9B2 /* itemCell.xib */; };
 		9B97814A2682EF22003CD9B2 /* itemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9781492682EF22003CD9B2 /* itemViewController.swift */; };
+		CF78F77F2684354F003AC5E6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF78F77E2684354F003AC5E6 /* CollectionViewCell.swift */; };
 		DDFD1352267A7EE9003DF38C /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFD1351267A7EE9003DF38C /* LandingViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		9B9781452682ED7D003CD9B2 /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
 		9B9781462682ED7D003CD9B2 /* itemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = itemCell.xib; sourceTree = "<group>"; };
 		9B9781492682EF22003CD9B2 /* itemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemViewController.swift; sourceTree = "<group>"; };
+		CF78F77E2684354F003AC5E6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		DDFD1351267A7EE9003DF38C /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 		90CB7C842679A2F800E10C89 /* iBudget */ = {
 			isa = PBXGroup;
 			children = (
+				CF78F77D26843537003AC5E6 /* CollectionViewReward */,
 				90CB7C852679A2F800E10C89 /* AppDelegate.swift */,
 				90CB7C872679A2F800E10C89 /* SceneDelegate.swift */,
 				90CB7CBC2679BA1000E10C89 /* Model */,
@@ -203,6 +206,14 @@
 				9B9781492682EF22003CD9B2 /* itemViewController.swift */,
 			);
 			path = Bulan;
+			sourceTree = "<group>";
+		};
+		CF78F77D26843537003AC5E6 /* CollectionViewReward */ = {
+			isa = PBXGroup;
+			children = (
+				CF78F77E2684354F003AC5E6 /* CollectionViewCell.swift */,
+			);
+			path = CollectionViewReward;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +355,7 @@
 				90CB7C8A2679A2F800E10C89 /* ViewController.swift in Sources */,
 				DDFD1352267A7EE9003DF38C /* LandingViewController.swift in Sources */,
 				90CB7C862679A2F800E10C89 /* AppDelegate.swift in Sources */,
+				CF78F77F2684354F003AC5E6 /* CollectionViewCell.swift in Sources */,
 				90CB7C882679A2F800E10C89 /* SceneDelegate.swift in Sources */,
 				9B6274A7267B19E100C7001D /* BulanViewController.swift in Sources */,
 				90CB7CC02679BAC000E10C89 /* MainUIProgressView.swift in Sources */,
