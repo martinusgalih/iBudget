@@ -17,11 +17,14 @@ class BulanViewController: UIViewController, UICollectionViewDelegate{
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.collectionViewLayout = UICollectionViewFlowLayout()
+        
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print(dates[indexPath.row].Bulan)
     }
+    
 }
 
 extension BulanViewController: UICollectionViewDataSource {
@@ -37,9 +40,9 @@ extension BulanViewController: UICollectionViewDataSource {
     
 }
 
-extension ViewController: UICollectionViewDelegateFlowLayout{
+extension BulanViewController: UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 600, height: 500)
+        return CGSize(width: 130, height: 130)
     }
 }
 
