@@ -35,6 +35,7 @@ extension BulanViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "BulanCollectionViewCell", for: indexPath) as! BulanCollectionViewCell
         cell.setup(with: dates[indexPath.row])
+        cell.shadowDecorate()
         return cell
     }
     
@@ -42,7 +43,7 @@ extension BulanViewController: UICollectionViewDataSource {
 
 extension BulanViewController: UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 130, height: 130)
+        return CGSize(width: 100, height: 120)
     }
 }
 
