@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v7V-LN-OOS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2VY-z2-Zyl">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -145,7 +145,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPU-v3-75C">
                                 <rect key="frame" x="43" y="732" width="304" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.9228692651" green="0.42930781839999999" blue="0.34506386519999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.9897781014" green="0.38990572089999997" blue="0.30976480249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <state key="normal" title="Add">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -258,9 +258,9 @@ PS - we have rewards ready if you maintain a good track record.</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MX0-nh-tfM">
                                 <rect key="frame" x="32" y="707" width="327" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.92156862750000001" green="0.42745098040000001" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.9897781014" green="0.38990572089999997" blue="0.30976480249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="Reedem Rewards">
+                                <state key="normal" title="Get Rewards">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
@@ -313,7 +313,7 @@ PS - we have rewards ready if you maintain a good track record.</string>
                                                 <constraint firstItem="Sh6-PR-2B0" firstAttribute="top" secondItem="BYD-Bn-PTZ" secondAttribute="bottom" id="ijx-QK-Pc1"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <color key="backgroundColor" red="0.92156862750000001" green="0.42745098040000001" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.9897781014" green="0.38990572089999997" blue="0.30976480249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <size key="customSize" width="189" height="153"/>
                                         <connections>
                                             <outlet property="bulanView" destination="BYD-Bn-PTZ" id="GmV-WH-mWz"/>
@@ -326,9 +326,17 @@ PS - we have rewards ready if you maintain a good track record.</string>
                         <viewLayoutGuide key="safeArea" id="1oT-4X-AHu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Debt Tracker" id="WW3-CV-8UP"/>
+                    <navigationItem key="navigationItem" title="Debt Tracker" id="WW3-CV-8UP">
+                        <barButtonItem key="leftBarButtonItem" title="Dashboard" id="zNT-No-TVe">
+                            <color key="tintColor" red="0.9897781014" green="0.38990572089999997" blue="0.30976480249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Rewards" style="plain" id="ckX-AY-TrC">
+                            <color key="tintColor" red="0.9897781014" green="0.38990572089999997" blue="0.30976480249999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="JVI-N2-H7n" id="e4i-GB-0NX"/>
+                        <outlet property="rewardButton" destination="MX0-nh-tfM" id="6ie-iV-k8J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LUV-Kl-gOH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -11,13 +11,17 @@ import UIKit
 class BulanViewController: UIViewController, UICollectionViewDelegate{
 
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var rewardButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.collectionViewLayout = UICollectionViewFlowLayout()
-        
+        rewardButton.layer.shadowColor = UIColor.black.cgColor
+        rewardButton.layer.shadowOffset = CGSize(width: 0, height: 1.0)
+        rewardButton.layer.shadowOpacity = 0.5
+        rewardButton.layer.cornerRadius = 10
         
     }
     
